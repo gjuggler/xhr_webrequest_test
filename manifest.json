@@ -1,0 +1,14 @@
+{
+  "name": "XHR WebReqest Test",
+  "version": "0.0",
+  "permissions": [
+    "http://*/",
+    "https://*/",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "manifest_version": 2,
+  "background": {
+    "page": "background.html"
+  }
+}
